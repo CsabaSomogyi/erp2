@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9F95635-A72A-48A5-AFF2-EE413E5B63CB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlRenderer, Version=1.5.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlRenderer.Core.1.5.0.5\lib\net45\HtmlRenderer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlRenderer.PdfSharp, Version=1.5.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlRenderer.PdfSharp.1.5.0.6\lib\net45\HtmlRenderer.PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbManagment.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gyartas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gyartas.Designer.cs">
+      <DependentUpon>Gyartas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GyartasiTerv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GyartasiTerv.Designer.cs">
+      <DependentUpon>GyartasiTerv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nev.Designer.cs">
+      <DependentUpon>Nev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raktar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raktar.Designer.cs">
+      <DependentUpon>Raktar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaktarFelKi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaktarFelKi.Designer.cs">
+      <DependentUpon>RaktarFelKi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reg.Designer.cs">
+      <DependentUpon>Reg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Termek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Termek.Designer.cs">
+      <DependentUpon>Termek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermekAlkatresz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermekAlkatresz.Designer.cs">
+      <DependentUpon>TermekAlkatresz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermekAlkatreszFelvitel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermekAlkatreszFelvitel.Designer.cs">
+      <DependentUpon>TermekAlkatreszFelvitel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermekFelvitel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermekFelvitel.Designer.cs">
+      <DependentUpon>TermekFelvitel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ujgyartas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ujgyartas.Designer.cs">
+      <DependentUpon>Ujgyartas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gyartas.resx">
+      <DependentUpon>Gyartas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nev.resx">
+      <DependentUpon>Nev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Raktar.resx">
+      <DependentUpon>Raktar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaktarFelKi.resx">
+      <DependentUpon>RaktarFelKi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reg.resx">
+      <DependentUpon>Reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Termek.resx">
+      <DependentUpon>Termek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermekAlkatresz.resx">
+      <DependentUpon>TermekAlkatresz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermekAlkatreszFelvitel.resx">
+      <DependentUpon>TermekAlkatreszFelvitel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermekFelvitel.resx">
+      <DependentUpon>TermekFelvitel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ujgyartas.resx">
+      <DependentUpon>Ujgyartas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
