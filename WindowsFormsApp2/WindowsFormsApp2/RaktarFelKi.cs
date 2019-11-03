@@ -23,20 +23,27 @@ namespace erp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+            if (CBTermekek.SelectedValue.ToString() == null || NDarab.Value < 1 || NDarab.Value >9999999)
             {
-                SqlCommand sqlCmd = new SqlCommand("RaktarModosit");
-                sqlCmd.CommandType = CommandType.StoredProcedure;
-                sqlCmd.Parameters.AddWithValue("@Id", Int32.Parse(CBTermekek.SelectedValue.ToString()));
-                sqlCmd.Parameters.AddWithValue("@Novel", 1);
-                sqlCmd.Parameters.AddWithValue("@Darab", NDarab.Value);
-                DbManagment.SqlCommandRun(sqlCmd);
-                Close();
+                MessageBox.Show("Hibás adatok!");
             }
-            catch (Exception exp)
+            else
             {
+                try
+                {
+                    SqlCommand sqlCmd = new SqlCommand("RaktarModosit");
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.Parameters.AddWithValue("@Id", Int32.Parse(CBTermekek.SelectedValue.ToString()));
+                    sqlCmd.Parameters.AddWithValue("@Novel", 1);
+                    sqlCmd.Parameters.AddWithValue("@Darab", NDarab.Value);
+                    DbManagment.SqlCommandRun(sqlCmd);
+                    Close();
+                }
+                catch (Exception exp)
+                {
 
-                MessageBox.Show(exp.Message.ToString());
+                    MessageBox.Show(exp.Message.ToString());
+                }
             }
         }
         void ComboBoxFill()

@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
@@ -24,16 +25,16 @@ namespace erp
         {
             this.Hide();
             var form = new TermekAlkatresz();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
             var form = new Termek();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            form.ShowDialog();
+            this.Show();
         }
         void DiagramFeltolt()
         {
@@ -46,13 +47,14 @@ namespace erp
             sda.Fill(st, "LegaktivabbDolgozok");
 
             chart1.DataSource = st.Tables["LegaktivabbDolgozok"];
+     
             chart1.Series["Series1"].XValueMember = "nev";
             chart1.Series["Series1"].YValueMembers = "db";
 
             this.chart1.Titles.Add("Legaktívabb dolgozók!");
             //      chart1.Series["Series1"].ChartType = SeriesChartType.Bar;
 
-            chart1.Series["Series1"].IsValueShownAsLabel = true;
+         //   chart1.Series["Series1"].IsValueShownAsLabel = true;
 
             cmd = new SqlCommand("select * from LegaktivabbTermekek", con);
             sda = new SqlDataAdapter(cmd);
@@ -65,7 +67,7 @@ namespace erp
             chart2.Series["Series1"].YValueMembers = "db";
 
             this.chart2.Titles.Add("Legaktívabb termékek!");
-            chart2.Series["Series1"].IsValueShownAsLabel = true;
+          //  chart2.Series["Series1"].IsValueShownAsLabel = true;
             con.Close();
         }
 
@@ -73,32 +75,37 @@ namespace erp
         {
             this.Hide();
             var form = new Login();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void btnGyT_Click(object sender, EventArgs e)
         {
+          
+
             this.Hide();
             var form = new GyartasiTerv();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            form.ShowDialog();
+            this.Show();
         }
+
 
         private void btnGyartas_Click(object sender, EventArgs e)
         {
             this.Hide();
             var form = new Gyartas();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            form.ShowDialog();
+            this.Show();
         }
 
         private void btnRaktar_Click(object sender, EventArgs e)
         {
             this.Hide();
             var form = new Raktar();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
+            // form.Closed += (s, args) => this.Close();
+            // form.Show();
+            form.ShowDialog();
+            this.Show();
         }
     }
 }

@@ -50,21 +50,39 @@ namespace erp
 
 
             //  sqlCmd.Transaction = "tr1";
+          
             SqlConnection sqlCon = new SqlConnection(connectionString);
             sqlCon.Open();
-            SqlCommand sqlCmd = new SqlCommand("BEGIN TRANSACTION a insert into teszt values(432)", sqlCon);
+            SqlCommand sqlCmd = new SqlCommand(" insert into teszt  select id from termek", sqlCon);
             //sqlCmd.Connection = sqlCon;
-            sqlCmd.ExecuteNonQuery();
-            sqlCon.Close();
+            int rowsAffected = sqlCmd.ExecuteNonQuery();
+      //      string a =   sqlCmd.ExecuteScalar().ToString();
+            MessageBox.Show(rowsAffected.ToString());
+          //  sqlCon.Close();
 
-            ComboBoxFill();
-            sqlCon.Open();
-            sqlCmd = new SqlCommand("commit TRANSACTION a", sqlCon);
+         /*   ComboBoxFill();
+            inserteszt2();
+           // sqlCon.Open();
+            sqlCmd = new SqlCommand("rollback TRANSACTION a", sqlCon);
             sqlCmd.ExecuteNonQuery();
-            sqlCon.Close();
-
+            sqlCon.Close();*/
+            
         }
 
+        void inserteszt2()
+        {
+            SqlConnection sqlCon = new SqlConnection(connectionString);
+            sqlCon.Open();
+            SqlCommand sqlCmd = new SqlCommand(" insert into teszt values(999)", sqlCon);
+            //sqlCmd.Connection = sqlCon;
+            sqlCmd.ExecuteNonQuery();
+            //  sqlCon.Close();
+
+            // sqlCon.Open();
+          //  sqlCmd = new SqlCommand("commit TRANSACTION a", sqlCon);
+          //  sqlCmd.ExecuteNonQuery();
+            sqlCon.Close();
+        }
 
         private void BtnOk_Click(object sender, EventArgs e)
         {

@@ -39,10 +39,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(175, 342);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(177, 326);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 28);
+            this.button2.Size = new System.Drawing.Size(110, 60);
             this.button2.TabIndex = 20;
             this.button2.Text = "Mégse";
             this.button2.UseVisualStyleBackColor = true;
@@ -50,10 +50,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(418, 330);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(422, 326);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.Size = new System.Drawing.Size(110, 60);
             this.button1.TabIndex = 19;
             this.button1.Text = "Mentés";
             this.button1.UseVisualStyleBackColor = true;
@@ -61,51 +61,56 @@
             // 
             // NDarab
             // 
-            this.NDarab.Location = new System.Drawing.Point(274, 242);
-            this.NDarab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NDarab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.NDarab.Location = new System.Drawing.Point(356, 220);
             this.NDarab.Name = "NDarab";
-            this.NDarab.Size = new System.Drawing.Size(160, 22);
+            this.NDarab.Size = new System.Drawing.Size(176, 29);
             this.NDarab.TabIndex = 22;
             // 
             // CBTermekek
             // 
+            this.CBTermekek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBTermekek.FormattingEnabled = true;
-            this.CBTermekek.Location = new System.Drawing.Point(274, 170);
-            this.CBTermekek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBTermekek.Location = new System.Drawing.Point(355, 118);
             this.CBTermekek.Name = "CBTermekek";
-            this.CBTermekek.Size = new System.Drawing.Size(160, 24);
+            this.CBTermekek.Size = new System.Drawing.Size(177, 32);
             this.CBTermekek.TabIndex = 23;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 242);
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(187, 222);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 17);
+            this.label1.Size = new System.Drawing.Size(60, 24);
             this.label1.TabIndex = 24;
             this.label1.Text = "Darab";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 173);
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(187, 121);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 17);
+            this.label2.Size = new System.Drawing.Size(75, 24);
             this.label2.TabIndex = 25;
             this.label2.Text = "Termék";
             // 
             // TermekAlkatreszFelvitel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(920, 524);
+            this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CBTermekek);
             this.Controls.Add(this.NDarab);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TermekAlkatreszFelvitel";
             this.Text = "TermekAlkatreszFelvitel";
             ((System.ComponentModel.ISupportInitialize)(this.NDarab)).EndInit();

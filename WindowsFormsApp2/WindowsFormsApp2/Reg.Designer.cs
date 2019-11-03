@@ -44,82 +44,86 @@ namespace erp
             // 
             // tboxPass
             // 
-            this.tboxPass.Location = new System.Drawing.Point(531, 274);
-            this.tboxPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tboxPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tboxPass.Location = new System.Drawing.Point(398, 189);
             this.tboxPass.Name = "tboxPass";
-            this.tboxPass.Size = new System.Drawing.Size(132, 22);
+            this.tboxPass.Size = new System.Drawing.Size(153, 29);
             this.tboxPass.TabIndex = 5;
             // 
             // tboxUser
             // 
-            this.tboxUser.Location = new System.Drawing.Point(531, 121);
-            this.tboxUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tboxUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tboxUser.Location = new System.Drawing.Point(398, 67);
             this.tboxUser.Name = "tboxUser";
-            this.tboxUser.Size = new System.Drawing.Size(132, 22);
+            this.tboxUser.Size = new System.Drawing.Size(153, 29);
             this.tboxUser.TabIndex = 4;
             // 
             // tboxPass2
             // 
-            this.tboxPass2.Location = new System.Drawing.Point(531, 315);
-            this.tboxPass2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tboxPass2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tboxPass2.Location = new System.Drawing.Point(398, 249);
             this.tboxPass2.Name = "tboxPass2";
-            this.tboxPass2.Size = new System.Drawing.Size(132, 22);
+            this.tboxPass2.Size = new System.Drawing.Size(153, 29);
             this.tboxPass2.TabIndex = 6;
             // 
             // tboxName
             // 
-            this.tboxName.Location = new System.Drawing.Point(531, 196);
-            this.tboxName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tboxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.tboxName.Location = new System.Drawing.Point(398, 128);
             this.tboxName.Name = "tboxName";
-            this.tboxName.Size = new System.Drawing.Size(132, 22);
+            this.tboxName.Size = new System.Drawing.Size(153, 29);
             this.tboxName.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(389, 129);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(151, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 17);
+            this.label1.Size = new System.Drawing.Size(148, 24);
             this.label1.TabIndex = 8;
             this.label1.Text = "Felhasználó név";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(389, 199);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(153, 131);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(97, 24);
             this.label2.TabIndex = 9;
             this.label2.Text = "Teljes név";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(389, 265);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(153, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 17);
+            this.label3.Size = new System.Drawing.Size(63, 24);
             this.label3.TabIndex = 10;
             this.label3.Text = "Jelszó";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(389, 315);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.BackColor = System.Drawing.SystemColors.Window;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(153, 252);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 17);
+            this.label4.Size = new System.Drawing.Size(99, 24);
             this.label4.TabIndex = 11;
             this.label4.Text = "Jelszó újra";
             // 
             // btnReg
             // 
-            this.btnReg.Location = new System.Drawing.Point(599, 386);
-            this.btnReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnReg.Location = new System.Drawing.Point(415, 330);
             this.btnReg.Name = "btnReg";
-            this.btnReg.Size = new System.Drawing.Size(100, 28);
+            this.btnReg.Size = new System.Drawing.Size(120, 50);
             this.btnReg.TabIndex = 12;
             this.btnReg.Text = "Regisztráció";
             this.btnReg.UseVisualStyleBackColor = true;
@@ -127,10 +131,10 @@ namespace erp
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(373, 386);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnCancel.Location = new System.Drawing.Point(168, 330);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(100, 28);
+            this.btnCancel.Size = new System.Drawing.Size(120, 50);
             this.btnCancel.TabIndex = 13;
             this.btnCancel.Text = "Login";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -138,9 +142,9 @@ namespace erp
             // 
             // Reg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnReg);
             this.Controls.Add(this.label4);
@@ -151,7 +155,6 @@ namespace erp
             this.Controls.Add(this.tboxPass2);
             this.Controls.Add(this.tboxPass);
             this.Controls.Add(this.tboxUser);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Reg";
             this.Text = "Reg";
             this.ResumeLayout(false);

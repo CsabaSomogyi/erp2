@@ -43,10 +43,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(404, 42);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button3.Location = new System.Drawing.Point(409, 57);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 28);
+            this.button3.Size = new System.Drawing.Size(110, 60);
             this.button3.TabIndex = 14;
             this.button3.Text = "Új";
             this.button3.UseVisualStyleBackColor = true;
@@ -54,10 +54,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(265, 42);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(98, 57);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 28);
+            this.button2.Size = new System.Drawing.Size(110, 60);
             this.button2.TabIndex = 13;
             this.button2.Text = "Módosít";
             this.button2.UseVisualStyleBackColor = true;
@@ -72,11 +72,10 @@
             this.Azonosito,
             this.Nev,
             this.Darab});
-            this.dgvEmployee.Location = new System.Drawing.Point(115, 329);
-            this.dgvEmployee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvEmployee.Location = new System.Drawing.Point(12, 138);
             this.dgvEmployee.Name = "dgvEmployee";
             this.dgvEmployee.ReadOnly = true;
-            this.dgvEmployee.Size = new System.Drawing.Size(839, 185);
+            this.dgvEmployee.Size = new System.Drawing.Size(760, 311);
             this.dgvEmployee.TabIndex = 12;
             // 
             // Id
@@ -121,34 +120,36 @@
             // 
             // CBTermekek
             // 
+            this.CBTermekek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBTermekek.FormattingEnabled = true;
-            this.CBTermekek.Location = new System.Drawing.Point(265, 123);
-            this.CBTermekek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBTermekek.Location = new System.Drawing.Point(343, 12);
             this.CBTermekek.Name = "CBTermekek";
-            this.CBTermekek.Size = new System.Drawing.Size(160, 24);
+            this.CBTermekek.Size = new System.Drawing.Size(229, 32);
             this.CBTermekek.TabIndex = 15;
             this.CBTermekek.SelectedIndexChanged += new System.EventHandler(this.CBTermekek_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(58, 126);
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(82, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 17);
+            this.label1.Size = new System.Drawing.Size(196, 24);
             this.label1.TabIndex = 16;
             this.label1.Text = "Válasz ki egy terméket";
             // 
             // TermekAlkatresz
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CBTermekek);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dgvEmployee);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TermekAlkatresz";
             this.Text = "p";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();

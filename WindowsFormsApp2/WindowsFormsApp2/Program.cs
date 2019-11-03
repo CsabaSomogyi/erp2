@@ -16,7 +16,7 @@ namespace erp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GyartasiTerv());
+            Application.Run(new Form2());
         }
     }
 }

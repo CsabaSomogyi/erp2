@@ -42,34 +42,41 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(294, 191);
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(201, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(93, 24);
             this.label3.TabIndex = 15;
             this.label3.Text = "Azonosító";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(294, 220);
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(201, 181);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.Size = new System.Drawing.Size(44, 24);
             this.label2.TabIndex = 14;
             this.label2.Text = "Név";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(294, 247);
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(201, 247);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(96, 24);
             this.label1.TabIndex = 13;
             this.label1.Text = "Gyártandó";
             // 
             // CBGyart
             // 
             this.CBGyart.AutoSize = true;
-            this.CBGyart.Location = new System.Drawing.Point(407, 243);
+            this.CBGyart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.CBGyart.Location = new System.Drawing.Point(450, 253);
             this.CBGyart.Name = "CBGyart";
             this.CBGyart.Size = new System.Drawing.Size(15, 14);
             this.CBGyart.TabIndex = 12;
@@ -77,23 +84,26 @@
             // 
             // TBNev
             // 
-            this.TBNev.Location = new System.Drawing.Point(407, 217);
+            this.TBNev.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TBNev.Location = new System.Drawing.Point(407, 178);
             this.TBNev.Name = "TBNev";
-            this.TBNev.Size = new System.Drawing.Size(100, 20);
+            this.TBNev.Size = new System.Drawing.Size(171, 29);
             this.TBNev.TabIndex = 11;
             // 
             // TBAzon
             // 
-            this.TBAzon.Location = new System.Drawing.Point(407, 191);
+            this.TBAzon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TBAzon.Location = new System.Drawing.Point(407, 119);
             this.TBAzon.Name = "TBAzon";
-            this.TBAzon.Size = new System.Drawing.Size(100, 20);
+            this.TBAzon.Size = new System.Drawing.Size(171, 29);
             this.TBAzon.TabIndex = 10;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(432, 331);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(407, 331);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(110, 60);
             this.button1.TabIndex = 16;
             this.button1.Text = "Mentés";
             this.button1.UseVisualStyleBackColor = true;
@@ -101,9 +111,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(273, 331);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(184, 331);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(110, 60);
             this.button2.TabIndex = 17;
             this.button2.Text = "Mégse";
             this.button2.UseVisualStyleBackColor = true;
@@ -111,9 +122,10 @@
             // 
             // TBId
             // 
-            this.TBId.Location = new System.Drawing.Point(341, 146);
+            this.TBId.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TBId.Location = new System.Drawing.Point(288, 42);
             this.TBId.Name = "TBId";
-            this.TBId.Size = new System.Drawing.Size(100, 20);
+            this.TBId.Size = new System.Drawing.Size(100, 29);
             this.TBId.TabIndex = 18;
             this.TBId.Visible = false;
             // 
@@ -121,7 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.TBId);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
