@@ -22,9 +22,7 @@ namespace erp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             PopulateDataGridView();
-
         }
 
         private void button2_Click(object sender, EventArgs e)

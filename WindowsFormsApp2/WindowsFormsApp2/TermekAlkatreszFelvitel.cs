@@ -41,7 +41,7 @@ namespace erp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (CBTermekek.SelectedValue.ToString() == null || NDarab.Value < 1)
+            if (CBTermekek.SelectedValue.ToString() == null || NDarab.Value < 1 || NDarab.Value < 1000000)
             {
                 MessageBox.Show("Hibás adatok!");
             }
@@ -75,22 +75,25 @@ namespace erp
         }
         void ComboBoxFill()
         {
-            using (SqlConnection sqlCon = new SqlConnection(connectionString))
-            {
+           // using (SqlConnection sqlCon = new SqlConnection(connectionString))
+            //{
                 string query = "SELECT [Id],[Azonosito] +'  '+ Nev  as Azon FROM[erp].[dbo].[Termek] where id = " + AlkatreszId;
                 if (Beszuras)
                 {
                     query = "SELECT [Id],[Azonosito] +'  '+ Nev  as Azon FROM[erp].[dbo].[Termek] where id != " + TermekId;
                 }
-                SqlDataAdapter da = new SqlDataAdapter(query, sqlCon);
-                sqlCon.Open();
-                DataSet ds = new DataSet();
-                da.Fill(ds, "Termek");
+            //  SqlDataAdapter da = new SqlDataAdapter(query, sqlCon);
+            // sqlCon.Open();
+            DataSet ds = DbManagment.SqlDataSetCreate(query, "Termek");// new DataSet();
+            //    da.Fill(ds, "Termek");
                 CBTermekek.DisplayMember = "Azon";
                 CBTermekek.ValueMember = "Id";
                 CBTermekek.DataSource = ds.Tables["Termek"];
 
-            }
+          //  }
+            //        public static DataSet SqlDataSetCreate(string query, string tablename)
+
+          
         }
     }
 }

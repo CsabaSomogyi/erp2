@@ -13,7 +13,7 @@ namespace erp
 {
     public partial class TermekAlkatresz : Form
     {
-        string connectionString = @"Data Source=localhost\SQLEXPRESS; Initial Catalog=erp; Integrated Security=True;";
+     //   string connectionString = @"Data Source=localhost\SQLEXPRESS; Initial Catalog=erp; Integrated Security=True;";
 
         public TermekAlkatresz()
         {
@@ -30,20 +30,12 @@ namespace erp
         }
         void ComboBoxFill()
         {
-            using (SqlConnection sqlCon = new SqlConnection(connectionString))
-            {
-
-                string query = "SELECT [Id],[Azonosito] +'  '+ Nev  as Azon FROM[erp].[dbo].[Termek] where Gyartando = 1";
-                SqlDataAdapter da = new SqlDataAdapter(query, sqlCon);
-                sqlCon.Open();
-                DataSet ds = new DataSet();
-                da.Fill(ds, "Termek");
-                CBTermekek.DisplayMember = "Azon";
-                CBTermekek.ValueMember = "Id";
-                CBTermekek.DataSource = ds.Tables["Termek"];
-            }
-
-
+            string query = "SELECT [Id],[Azonosito] +'  '+ Nev  as Azon FROM[erp].[dbo].[Termek] where Gyartando = 1";
+ 
+            DataSet ds = DbManagment.SqlDataSetCreate(query, "Termek");
+            CBTermekek.DisplayMember = "Azon";
+            CBTermekek.ValueMember = "Id";
+            CBTermekek.DataSource = ds.Tables["Termek"];
         }
 
         private void CBTermekek_SelectedIndexChanged(object sender, EventArgs e)
@@ -52,15 +44,10 @@ namespace erp
         }
         void PopulateDataGridView()
         {
-
-
             string query = "SELECT ta.[Id] as 'AlkatreszId' ,t.Id, t.Azonosito , t.Nev , ta.AlkatreszMennyiseg as 'darab'" +
                  "FROM[erp].[dbo].[TermekAlkatresz] ta  " +
                  "inner join Termek  t on ta.AlkatreszId = t.Id " +
                   "where TermekId = " + CBTermekek.SelectedValue.ToString();
-            //   DataTable dtbl = new DataTable();
-            //    sqlDa.Fill(dtbl);
-
 
             dgvEmployee.DataSource = DbManagment.SqlDataAdRun(query);
 

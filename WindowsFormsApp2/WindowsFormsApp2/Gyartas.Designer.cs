@@ -30,7 +30,6 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.treeView1 = new System.Windows.Forms.TreeView();
-            this.button3 = new System.Windows.Forms.Button();
             this.dgvEmployee = new System.Windows.Forms.DataGridView();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Munkafolyamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,31 +50,23 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 44);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(244, 26);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(134, 68);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Lekérdez";
+            this.button1.Text = "Lekérdezés";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(58, 172);
+            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.treeView1.Location = new System.Drawing.Point(9, 110);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(254, 215);
+            this.treeView1.Size = new System.Drawing.Size(307, 439);
             this.treeView1.TabIndex = 2;
             this.treeView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button2_Click_1);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(322, 44);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dgvEmployee
             // 
@@ -87,10 +78,10 @@
             this.Kesz,
             this.Nev,
             this.Mikor});
-            this.dgvEmployee.Location = new System.Drawing.Point(342, 172);
+            this.dgvEmployee.Location = new System.Drawing.Point(322, 176);
             this.dgvEmployee.Name = "dgvEmployee";
             this.dgvEmployee.ReadOnly = true;
-            this.dgvEmployee.Size = new System.Drawing.Size(765, 202);
+            this.dgvEmployee.Size = new System.Drawing.Size(850, 373);
             this.dgvEmployee.TabIndex = 17;
             this.dgvEmployee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployee_CellContentClick);
             // 
@@ -143,9 +134,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(638, 44);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(668, 26);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(176, 23);
+            this.button2.Size = new System.Drawing.Size(247, 68);
             this.button2.TabIndex = 18;
             this.button2.Text = "Részletek lekérdezése";
             this.button2.UseVisualStyleBackColor = true;
@@ -153,9 +145,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(870, 44);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button4.Location = new System.Drawing.Point(956, 26);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 23);
+            this.button4.Size = new System.Drawing.Size(189, 68);
             this.button4.TabIndex = 19;
             this.button4.Text = "Mentés PDF-be";
             this.button4.UseVisualStyleBackColor = true;
@@ -166,10 +159,10 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1});
-            this.dataGridView1.Location = new System.Drawing.Point(342, 97);
+            this.dataGridView1.Location = new System.Drawing.Point(322, 110);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(765, 69);
+            this.dataGridView1.Size = new System.Drawing.Size(850, 60);
             this.dataGridView1.TabIndex = 21;
             // 
             // dataGridViewTextBoxColumn1
@@ -187,10 +180,11 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 72);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.checkBox1.Location = new System.Drawing.Point(9, 66);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(49, 17);
+            this.checkBox1.Size = new System.Drawing.Size(70, 28);
             this.checkBox1.TabIndex = 22;
             this.checkBox1.Text = "Kész";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -199,10 +193,11 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(9, 50);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.checkBox2.Location = new System.Drawing.Point(9, 26);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(109, 17);
+            this.checkBox2.Size = new System.Drawing.Size(177, 28);
             this.checkBox2.TabIndex = 23;
             this.checkBox2.Text = "Folyamatban lévő";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -212,14 +207,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 423);
+            this.ClientSize = new System.Drawing.Size(1184, 561);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dgvEmployee);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.button1);
             this.Name = "Gyartas";
@@ -234,7 +228,6 @@
         #endregion
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TreeView treeView1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dgvEmployee;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;

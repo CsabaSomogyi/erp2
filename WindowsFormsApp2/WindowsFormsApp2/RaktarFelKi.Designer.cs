@@ -42,7 +42,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Window;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(208, 109);
+            this.label2.Location = new System.Drawing.Point(160, 96);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 24);
@@ -54,7 +54,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Window;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(208, 208);
+            this.label1.Location = new System.Drawing.Point(160, 195);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 24);
@@ -63,25 +63,26 @@
             // 
             // CBTermekek
             // 
+            this.CBTermekek.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBTermekek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBTermekek.FormattingEnabled = true;
-            this.CBTermekek.Location = new System.Drawing.Point(375, 106);
+            this.CBTermekek.Location = new System.Drawing.Point(327, 93);
             this.CBTermekek.Name = "CBTermekek";
-            this.CBTermekek.Size = new System.Drawing.Size(210, 32);
+            this.CBTermekek.Size = new System.Drawing.Size(256, 32);
             this.CBTermekek.TabIndex = 29;
             // 
             // NDarab
             // 
             this.NDarab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.NDarab.Location = new System.Drawing.Point(375, 208);
+            this.NDarab.Location = new System.Drawing.Point(327, 195);
             this.NDarab.Name = "NDarab";
-            this.NDarab.Size = new System.Drawing.Size(210, 29);
+            this.NDarab.Size = new System.Drawing.Size(256, 29);
             this.NDarab.TabIndex = 28;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(212, 322);
+            this.button2.Location = new System.Drawing.Point(154, 322);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 50);
             this.button2.TabIndex = 27;
@@ -92,7 +93,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(475, 322);
+            this.button1.Location = new System.Drawing.Point(427, 322);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 50);
             this.button1.TabIndex = 26;

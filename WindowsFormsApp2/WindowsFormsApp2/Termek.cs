@@ -106,10 +106,7 @@ namespace erp
             PopulateDataGridView();
         }
 
-        private void AsdToolStripMenuItem_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void GyártásToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -118,30 +115,5 @@ namespace erp
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
-
-        private void dgvEmployee_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void TBAzon_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TBNev_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        } 
     }
 }

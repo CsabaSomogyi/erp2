@@ -43,18 +43,20 @@
             // 
             // CBTermekek
             // 
+            this.CBTermekek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBTermekek.FormattingEnabled = true;
             this.CBTermekek.Location = new System.Drawing.Point(72, 36);
             this.CBTermekek.Name = "CBTermekek";
-            this.CBTermekek.Size = new System.Drawing.Size(121, 21);
+            this.CBTermekek.Size = new System.Drawing.Size(121, 32);
             this.CBTermekek.TabIndex = 19;
             this.CBTermekek.SelectedIndexChanged += new System.EventHandler(this.CBTermekek_SelectedIndexChanged);
             // 
             // BtnModosit
             // 
+            this.BtnModosit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BtnModosit.Location = new System.Drawing.Point(72, 140);
             this.BtnModosit.Name = "BtnModosit";
-            this.BtnModosit.Size = new System.Drawing.Size(75, 23);
+            this.BtnModosit.Size = new System.Drawing.Size(110, 40);
             this.BtnModosit.TabIndex = 17;
             this.BtnModosit.Text = "Módosít";
             this.BtnModosit.UseVisualStyleBackColor = true;
@@ -100,23 +102,26 @@
             // 
             // NSorrend
             // 
-            this.NSorrend.Location = new System.Drawing.Point(584, 140);
+            this.NSorrend.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.NSorrend.Location = new System.Drawing.Point(584, 78);
             this.NSorrend.Name = "NSorrend";
-            this.NSorrend.Size = new System.Drawing.Size(120, 20);
+            this.NSorrend.Size = new System.Drawing.Size(120, 29);
             this.NSorrend.TabIndex = 23;
             // 
             // TBMunka
             // 
-            this.TBMunka.Location = new System.Drawing.Point(584, 100);
+            this.TBMunka.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TBMunka.Location = new System.Drawing.Point(584, 36);
             this.TBMunka.Name = "TBMunka";
-            this.TBMunka.Size = new System.Drawing.Size(154, 20);
+            this.TBMunka.Size = new System.Drawing.Size(154, 29);
             this.TBMunka.TabIndex = 24;
             // 
             // btnOk
             // 
+            this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnOk.Location = new System.Drawing.Point(584, 186);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.Size = new System.Drawing.Size(110, 40);
             this.btnOk.TabIndex = 25;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = true;

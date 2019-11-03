@@ -69,6 +69,7 @@
             // 
             // CBTermekek
             // 
+            this.CBTermekek.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBTermekek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBTermekek.FormattingEnabled = true;
             this.CBTermekek.Location = new System.Drawing.Point(355, 118);

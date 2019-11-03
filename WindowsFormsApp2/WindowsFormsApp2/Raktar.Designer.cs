@@ -85,6 +85,7 @@ namespace erp
             // 
             this.TBAzon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.TBAzon.Location = new System.Drawing.Point(137, 12);
+            this.TBAzon.MaxLength = 50;
             this.TBAzon.Name = "TBAzon";
             this.TBAzon.Size = new System.Drawing.Size(183, 29);
             this.TBAzon.TabIndex = 10;
@@ -114,6 +115,7 @@ namespace erp
             // 
             this.TBNev.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.TBNev.Location = new System.Drawing.Point(137, 68);
+            this.TBNev.MaxLength = 50;
             this.TBNev.Name = "TBNev";
             this.TBNev.Size = new System.Drawing.Size(183, 29);
             this.TBNev.TabIndex = 13;

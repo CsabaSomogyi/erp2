@@ -117,4 +117,234 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnTA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnTA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 206</value>
+  </data>
+  <data name="btnTA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnTA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnTA.Text" xml:space="preserve">
+    <value>Termék Alkatrész</value>
+  </data>
+  <data name="&gt;&gt;btnTA.Name" xml:space="preserve">
+    <value>btnTA</value>
+  </data>
+  <data name="&gt;&gt;btnTA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 12</value>
+  </data>
+  <data name="chart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 293</value>
+  </data>
+  <data name="chart1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chart1.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chart1.Name" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chart1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;chart1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chart1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnTermek.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnTermek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 150</value>
+  </data>
+  <data name="btnTermek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <data name="btnTermek.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnTermek.Text" xml:space="preserve">
+    <value>Termék</value>
+  </data>
+  <data name="&gt;&gt;btnTermek.Name" xml:space="preserve">
+    <value>btnTermek</value>
+  </data>
+  <data name="&gt;&gt;btnTermek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTermek.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTermek.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnGyT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnGyT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 262</value>
+  </data>
+  <data name="btnGyT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <data name="btnGyT.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnGyT.Text" xml:space="preserve">
+    <value>Gyártási terv</value>
+  </data>
+  <data name="&gt;&gt;btnGyT.Name" xml:space="preserve">
+    <value>btnGyT</value>
+  </data>
+  <data name="&gt;&gt;btnGyT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGyT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGyT.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnGyartas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnGyartas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 318</value>
+  </data>
+  <data name="btnGyartas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <data name="btnGyartas.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnGyartas.Text" xml:space="preserve">
+    <value>Gyártás</value>
+  </data>
+  <data name="&gt;&gt;btnGyartas.Name" xml:space="preserve">
+    <value>btnGyartas</value>
+  </data>
+  <data name="&gt;&gt;btnGyartas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGyartas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGyartas.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRaktar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnRaktar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 374</value>
+  </data>
+  <data name="btnRaktar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <data name="btnRaktar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnRaktar.Text" xml:space="preserve">
+    <value>Raktár</value>
+  </data>
+  <data name="&gt;&gt;btnRaktar.Name" xml:space="preserve">
+    <value>btnRaktar</value>
+  </data>
+  <data name="&gt;&gt;btnRaktar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRaktar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRaktar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnKi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnKi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 12</value>
+  </data>
+  <data name="btnKi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 50</value>
+  </data>
+  <data name="btnKi.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnKi.Text" xml:space="preserve">
+    <value>Kijelentkezés</value>
+  </data>
+  <data name="&gt;&gt;btnKi.Name" xml:space="preserve">
+    <value>btnKi</value>
+  </data>
+  <data name="&gt;&gt;btnKi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnKi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnKi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 315</value>
+  </data>
+  <data name="chart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 293</value>
+  </data>
+  <data name="chart2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chart2.Text" xml:space="preserve">
+    <value>chart2</value>
+  </data>
+  <data name="&gt;&gt;chart2.Name" xml:space="preserve">
+    <value>chart2</value>
+  </data>
+  <data name="&gt;&gt;chart2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;chart2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chart2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1030, 620</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

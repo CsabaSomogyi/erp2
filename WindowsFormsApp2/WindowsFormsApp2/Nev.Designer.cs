@@ -37,9 +37,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(101, 99);
+            this.textBox1.Location = new System.Drawing.Point(80, 100);
+            this.textBox1.MaxLength = 50;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(158, 29);
+            this.textBox1.Size = new System.Drawing.Size(199, 29);
             this.textBox1.TabIndex = 0;
             // 
             // label1

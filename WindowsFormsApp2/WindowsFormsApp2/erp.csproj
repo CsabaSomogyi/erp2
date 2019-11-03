@@ -146,6 +146,9 @@
     <EmbeddedResource Include="Gyartas.resx">
       <DependentUpon>Gyartas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GyartasiTerv.resx">
+      <DependentUpon>GyartasiTerv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

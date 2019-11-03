@@ -56,7 +56,6 @@
             this.dgvEmployee.ReadOnly = true;
             this.dgvEmployee.Size = new System.Drawing.Size(760, 304);
             this.dgvEmployee.TabIndex = 0;
-            this.dgvEmployee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployee_CellContentClick);
             // 
             // Id
             // 
@@ -93,18 +92,16 @@
             this.TBAzon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.TBAzon.Location = new System.Drawing.Point(176, 23);
             this.TBAzon.Name = "TBAzon";
-            this.TBAzon.Size = new System.Drawing.Size(100, 29);
+            this.TBAzon.Size = new System.Drawing.Size(203, 29);
             this.TBAzon.TabIndex = 4;
-            this.TBAzon.TextChanged += new System.EventHandler(this.TBAzon_TextChanged);
             // 
             // TBNev
             // 
             this.TBNev.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.TBNev.Location = new System.Drawing.Point(176, 73);
             this.TBNev.Name = "TBNev";
-            this.TBNev.Size = new System.Drawing.Size(100, 29);
+            this.TBNev.Size = new System.Drawing.Size(203, 29);
             this.TBNev.TabIndex = 5;
-            this.TBNev.TextChanged += new System.EventHandler(this.TBNev_TextChanged);
             // 
             // label2
             // 
@@ -116,12 +113,11 @@
             this.label2.Size = new System.Drawing.Size(44, 24);
             this.label2.TabIndex = 8;
             this.label2.Text = "Név";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(491, 38);
+            this.button2.Location = new System.Drawing.Point(643, 13);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 50);
             this.button2.TabIndex = 10;
@@ -132,7 +128,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(638, 38);
+            this.button3.Location = new System.Drawing.Point(643, 76);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 50);
             this.button3.TabIndex = 11;
@@ -143,7 +139,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button4.Location = new System.Drawing.Point(295, 38);
+            this.button4.Location = new System.Drawing.Point(424, 36);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 50);
             this.button4.TabIndex = 0;
@@ -161,7 +157,6 @@
             this.label1.Size = new System.Drawing.Size(93, 24);
             this.label1.TabIndex = 9;
             this.label1.Text = "Azonosító";
-            this.label1.Click += new System.EventHandler(this.label3_Click);
             // 
             // Termek
             // 

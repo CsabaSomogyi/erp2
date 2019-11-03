@@ -76,7 +76,6 @@ D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\PdfSharp.Charting.xml
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\de\PdfSharp.resources.dll
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\de\PdfSharp.Charting.resources.dll
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.csprojAssemblyReference.cache
-D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.Form2.resources
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.Gyartas.resources
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.Login.resources
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.Nev.resources
@@ -94,3 +93,5 @@ D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.csproj.CoreCompileI
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.csproj.CopyComplete
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.GyartasiTerv.resources
+D:\Csabi\erp\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\erp.Form2.resources
