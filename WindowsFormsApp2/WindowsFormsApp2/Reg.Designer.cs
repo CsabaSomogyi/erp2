@@ -134,9 +134,9 @@ namespace erp
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnCancel.Location = new System.Drawing.Point(168, 330);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(120, 50);
+            this.btnCancel.Size = new System.Drawing.Size(131, 50);
             this.btnCancel.TabIndex = 13;
-            this.btnCancel.Text = "Login";
+            this.btnCancel.Text = "Bejelntkezés";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
@@ -156,7 +156,7 @@ namespace erp
             this.Controls.Add(this.tboxPass);
             this.Controls.Add(this.tboxUser);
             this.Name = "Reg";
-            this.Text = "Reg";
+            this.Text = "Regisztráció";
             this.ResumeLayout(false);
             this.PerformLayout();
 

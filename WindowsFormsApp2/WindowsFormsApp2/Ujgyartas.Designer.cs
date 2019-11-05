@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NDarab)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             this.CBTermekek.FormattingEnabled = true;
             this.CBTermekek.Location = new System.Drawing.Point(377, 171);
             this.CBTermekek.Name = "CBTermekek";
-            this.CBTermekek.Size = new System.Drawing.Size(161, 32);
+            this.CBTermekek.Size = new System.Drawing.Size(207, 32);
             this.CBTermekek.TabIndex = 16;
             // 
             // NDarab
@@ -53,13 +54,13 @@
             this.NDarab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.NDarab.Location = new System.Drawing.Point(377, 243);
             this.NDarab.Name = "NDarab";
-            this.NDarab.Size = new System.Drawing.Size(161, 29);
+            this.NDarab.Size = new System.Drawing.Size(207, 29);
             this.NDarab.TabIndex = 23;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(235, 334);
+            this.button1.Location = new System.Drawing.Point(364, 335);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(220, 60);
             this.button1.TabIndex = 24;
@@ -72,7 +73,7 @@
             this.TBNev.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.TBNev.Location = new System.Drawing.Point(377, 103);
             this.TBNev.Name = "TBNev";
-            this.TBNev.Size = new System.Drawing.Size(161, 29);
+            this.TBNev.Size = new System.Drawing.Size(207, 29);
             this.TBNev.TabIndex = 25;
             // 
             // label1
@@ -109,11 +110,23 @@
             this.label3.TabIndex = 28;
             this.label3.Text = "Darab";
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(139, 335);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(131, 60);
+            this.button2.TabIndex = 29;
+            this.button2.Text = "Mégse";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
             // UjGyartas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 461);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -138,5 +151,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
     }
 }

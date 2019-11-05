@@ -42,7 +42,7 @@
             this.button1.Location = new System.Drawing.Point(128, 320);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 50);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 2;
             this.button1.Text = "Regisztráció";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
@@ -105,8 +105,9 @@
             this.Controls.Add(this.tboxUser);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Login";
-            this.Text = " ";
+            this.Text = " Bejelentkezés";
             this.ResumeLayout(false);
             this.PerformLayout();
 

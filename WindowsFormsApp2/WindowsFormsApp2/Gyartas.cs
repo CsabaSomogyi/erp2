@@ -351,5 +351,12 @@ namespace erp
                 checkBox1.Checked = false;
             }
         }
+
+        private void Button3_Click_1(object sender, EventArgs e)
+        {
+            UjGyartas dialogus = new UjGyartas();
+
+            dialogus.ShowDialog();
+        }
     }
 }

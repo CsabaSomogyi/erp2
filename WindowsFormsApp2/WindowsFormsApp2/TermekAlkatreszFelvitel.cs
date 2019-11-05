@@ -41,7 +41,7 @@ namespace erp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (CBTermekek.SelectedValue.ToString() == null || NDarab.Value < 1 || NDarab.Value < 1000000)
+            if (CBTermekek.SelectedValue.ToString() == null || NDarab.Value < 1 || NDarab.Value > 1000000)
             {
                 MessageBox.Show("Hibás adatok!");
             }
@@ -59,6 +59,7 @@ namespace erp
                 try
                 {
                     DbManagment.SqlCommandRun(sqlCmd);
+                    Close();
                 }
                 catch (Exception exp)
                 {

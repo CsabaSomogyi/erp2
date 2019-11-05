@@ -29,38 +29,26 @@
         private void InitializeComponent()
         {
             this.CBTermekek = new System.Windows.Forms.ComboBox();
-            this.BtnModosit = new System.Windows.Forms.Button();
             this.dgvEmployee = new System.Windows.Forms.DataGridView();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Munkafolyamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sorrend = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NSorrend = new System.Windows.Forms.NumericUpDown();
-            this.TBMunka = new System.Windows.Forms.TextBox();
-            this.btnOk = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NSorrend)).BeginInit();
             this.SuspendLayout();
             // 
             // CBTermekek
             // 
+            this.CBTermekek.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBTermekek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBTermekek.FormattingEnabled = true;
-            this.CBTermekek.Location = new System.Drawing.Point(72, 36);
+            this.CBTermekek.Location = new System.Drawing.Point(355, 12);
             this.CBTermekek.Name = "CBTermekek";
-            this.CBTermekek.Size = new System.Drawing.Size(121, 32);
+            this.CBTermekek.Size = new System.Drawing.Size(210, 32);
             this.CBTermekek.TabIndex = 19;
             this.CBTermekek.SelectedIndexChanged += new System.EventHandler(this.CBTermekek_SelectedIndexChanged);
-            // 
-            // BtnModosit
-            // 
-            this.BtnModosit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.BtnModosit.Location = new System.Drawing.Point(72, 140);
-            this.BtnModosit.Name = "BtnModosit";
-            this.BtnModosit.Size = new System.Drawing.Size(110, 40);
-            this.BtnModosit.TabIndex = 17;
-            this.BtnModosit.Text = "Módosít";
-            this.BtnModosit.UseVisualStyleBackColor = true;
-            this.BtnModosit.Click += new System.EventHandler(this.BtnModosit_Click);
             // 
             // dgvEmployee
             // 
@@ -69,10 +57,10 @@
             this.Id,
             this.Munkafolyamat,
             this.Sorrend});
-            this.dgvEmployee.Location = new System.Drawing.Point(75, 264);
+            this.dgvEmployee.Location = new System.Drawing.Point(12, 120);
             this.dgvEmployee.Name = "dgvEmployee";
             this.dgvEmployee.ReadOnly = true;
-            this.dgvEmployee.Size = new System.Drawing.Size(629, 150);
+            this.dgvEmployee.Size = new System.Drawing.Size(760, 336);
             this.dgvEmployee.TabIndex = 16;
             // 
             // Id
@@ -100,63 +88,66 @@
             this.Sorrend.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Sorrend.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // NSorrend
+            // button3
             // 
-            this.NSorrend.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.NSorrend.Location = new System.Drawing.Point(584, 78);
-            this.NSorrend.Name = "NSorrend";
-            this.NSorrend.Size = new System.Drawing.Size(120, 29);
-            this.NSorrend.TabIndex = 23;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button3.Location = new System.Drawing.Point(405, 53);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(110, 50);
+            this.button3.TabIndex = 27;
+            this.button3.Text = "Új";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
-            // TBMunka
+            // button2
             // 
-            this.TBMunka.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.TBMunka.Location = new System.Drawing.Point(584, 36);
-            this.TBMunka.Name = "TBMunka";
-            this.TBMunka.Size = new System.Drawing.Size(154, 29);
-            this.TBMunka.TabIndex = 24;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(93, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(110, 50);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Módosít";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // btnOk
+            // label1
             // 
-            this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnOk.Location = new System.Drawing.Point(584, 186);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(110, 40);
-            this.btnOk.TabIndex = 25;
-            this.btnOk.Text = "Ok";
-            this.btnOk.UseVisualStyleBackColor = true;
-            this.btnOk.Click += new System.EventHandler(this.BtnOk_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(55, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(196, 24);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Válasz ki egy terméket";
             // 
             // GyartasiTerv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnOk);
-            this.Controls.Add(this.TBMunka);
-            this.Controls.Add(this.NSorrend);
+            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.CBTermekek);
-            this.Controls.Add(this.BtnModosit);
             this.Controls.Add(this.dgvEmployee);
             this.Name = "GyartasiTerv";
             this.Text = "GyartasiTerv";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NSorrend)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox CBTermekek;
-        private System.Windows.Forms.Button BtnModosit;
         private System.Windows.Forms.DataGridView dgvEmployee;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Munkafolyamat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Sorrend;
-        private System.Windows.Forms.NumericUpDown NSorrend;
-        private System.Windows.Forms.TextBox TBMunka;
-        private System.Windows.Forms.Button btnOk;
+        private System.Windows.Forms.ComboBox CBTermekek;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -48,17 +48,17 @@ namespace erp
         {
             if (tboxUser.TextLength < 3 || tboxUser.TextLength > 20)
             {
-                MessageBox.Show("Rossz felhasználó név!");
+                MessageBox.Show("Felhasználó név legalább 3 de maximum 50 karakter hosszú lehet!!");
                 return false;
             }
             if (tboxName.TextLength < 3 || tboxName.TextLength > 50)
             {
-                MessageBox.Show("Rossz  név!");
+                MessageBox.Show("Teljes név legalább 3 de maximum 50 karakter hosszú lehet!");
                 return false;
             }
             if (tboxPass.TextLength < 8 || tboxPass.TextLength > 20 || tboxPass2.TextLength < 8 || tboxPass2.TextLength > 20)
             {
-                MessageBox.Show("Rossz jelszó!");
+                MessageBox.Show("Jelszónak legalább 8 karakter hosszúnak kell lenni és maximum 20 karakter hosszú lehet!");
                 return false;
             }
             if (tboxPass.Text != tboxPass2.Text)

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp2;
 
 namespace erp
 {
@@ -15,76 +16,17 @@ namespace erp
     {
         string connectionString = @"Data Source=localhost\SQLEXPRESS; Initial Catalog=erp; Integrated Security=True;";
 
-        int Idd = 0;
+     //   int Idd = 0;
         public GyartasiTerv()
         {
             InitializeComponent();
             ComboBoxFill();
             PopulateDataGridView();
             dgvEmployee.AllowUserToAddRows = false;
-            inserteszt();
         }
 
-        void inserteszt()
-        {
-            /*  using (SqlConnection sqlCon = new SqlConnection(connectionString))
-              {
-                  SqlCommand sqlCmd = new SqlCommand("BEGIN TRANSACTION insert into teszt values(111)");
 
-                  sqlCon.Open();
-                //  SqlTransaction sqlt = sqlCon.BeginTransaction("t1");
-               //   sqlCmd.Transaction = sqlt;
-                  sqlCmd.Connection = sqlCon;
-                  sqlCmd.ExecuteNonQuery();
-
-
-                //  sqlCmd = new SqlCommand("commit TRANSACTION");
-            //      sqlCmd.Transaction = sqlt;
-                  //sqlCon.Open();
-                  sqlCmd.Connection = sqlCon;
-                  sqlCmd.ExecuteNonQuery();
-
-
-
-              }*/
-
-
-            //  sqlCmd.Transaction = "tr1";
-          
-            SqlConnection sqlCon = new SqlConnection(connectionString);
-            sqlCon.Open();
-            SqlCommand sqlCmd = new SqlCommand(" insert into teszt  select id from termek", sqlCon);
-            //sqlCmd.Connection = sqlCon;
-            int rowsAffected = sqlCmd.ExecuteNonQuery();
-      //      string a =   sqlCmd.ExecuteScalar().ToString();
-            MessageBox.Show(rowsAffected.ToString());
-          //  sqlCon.Close();
-
-         /*   ComboBoxFill();
-            inserteszt2();
-           // sqlCon.Open();
-            sqlCmd = new SqlCommand("rollback TRANSACTION a", sqlCon);
-            sqlCmd.ExecuteNonQuery();
-            sqlCon.Close();*/
-            
-        }
-
-        void inserteszt2()
-        {
-            SqlConnection sqlCon = new SqlConnection(connectionString);
-            sqlCon.Open();
-            SqlCommand sqlCmd = new SqlCommand(" insert into teszt values(999)", sqlCon);
-            //sqlCmd.Connection = sqlCon;
-            sqlCmd.ExecuteNonQuery();
-            //  sqlCon.Close();
-
-            // sqlCon.Open();
-          //  sqlCmd = new SqlCommand("commit TRANSACTION a", sqlCon);
-          //  sqlCmd.ExecuteNonQuery();
-            sqlCon.Close();
-        }
-
-        private void BtnOk_Click(object sender, EventArgs e)
+    /*  private void BtnOk_Click(object sender, EventArgs e)
         {
             if (CBTermekek.SelectedValue.ToString() == null || NSorrend.Value < 1 || TBMunka.Text.Length < 3)
             {
@@ -110,7 +52,7 @@ namespace erp
             }
 
 
-        }
+        }*/
 
         void ComboBoxFill()
         {
@@ -147,7 +89,7 @@ namespace erp
             PopulateDataGridView();
         }
 
-        private void BtnModosit_Click(object sender, EventArgs e)
+     /*   private void BtnModosit_Click(object sender, EventArgs e)
         {
 
             int a = dgvEmployee.CurrentCell.RowIndex;
@@ -159,6 +101,23 @@ namespace erp
 
             }
 
+        }
+        */
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            GyartasiTervFelvitel dialogus = new GyartasiTervFelvitel(0,Int32.Parse(CBTermekek.SelectedValue.ToString()));
+
+            dialogus.ShowDialog();
+            PopulateDataGridView();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            int a = dgvEmployee.CurrentCell.RowIndex;
+            GyartasiTervFelvitel dialogus = new GyartasiTervFelvitel(Int32.Parse(dgvEmployee[0, a].Value.ToString()), Int32.Parse(CBTermekek.SelectedValue.ToString()), dgvEmployee[1, a].Value.ToString(), Int32.Parse(dgvEmployee[2, a].Value.ToString()));
+
+            dialogus.ShowDialog();
+            PopulateDataGridView();
         }
     }
 }

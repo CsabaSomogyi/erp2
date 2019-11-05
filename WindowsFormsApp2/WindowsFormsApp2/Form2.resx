@@ -129,7 +129,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnTA.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="btnTA.Text" xml:space="preserve">
     <value>Termék Alkatrész</value>
@@ -288,7 +288,7 @@
     <value>180, 50</value>
   </data>
   <data name="btnKi.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>1</value>
   </data>
   <data name="btnKi.Text" xml:space="preserve">
     <value>Kijelentkezés</value>
