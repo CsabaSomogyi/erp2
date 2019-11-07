@@ -143,8 +143,9 @@
             this.Controls.Add(this.CBGyart);
             this.Controls.Add(this.TBNev);
             this.Controls.Add(this.TBAzon);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "TermekFelvitel";
-            this.Text = "TermekFelvitel";
+            this.Text = "Termek felvitel";
             this.ResumeLayout(false);
             this.PerformLayout();
 

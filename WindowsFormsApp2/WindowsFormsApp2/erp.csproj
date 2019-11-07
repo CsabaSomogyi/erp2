@@ -226,7 +226,6 @@
     <EmbeddedResource Include="Ujgyartas.resx">
       <DependentUpon>Ujgyartas.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="erp_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

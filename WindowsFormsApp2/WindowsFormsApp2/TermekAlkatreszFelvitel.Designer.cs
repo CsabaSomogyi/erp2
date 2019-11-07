@@ -112,8 +112,9 @@
             this.Controls.Add(this.NDarab);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "TermekAlkatreszFelvitel";
-            this.Text = "TermekAlkatreszFelvitel";
+            this.Text = "Alkatrész lista felvitel";
             ((System.ComponentModel.ISupportInitialize)(this.NDarab)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

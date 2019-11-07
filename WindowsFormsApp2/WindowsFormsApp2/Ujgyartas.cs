@@ -32,6 +32,7 @@ namespace erp
             else
             {
                 GyartasInditasa();
+                Close();
             }
 
         }

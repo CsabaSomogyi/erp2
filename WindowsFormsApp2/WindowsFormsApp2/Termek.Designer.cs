@@ -171,8 +171,9 @@
             this.Controls.Add(this.TBAzon);
             this.Controls.Add(this.dgvEmployee);
             this.Controls.Add(this.button4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Termek";
-            this.Text = "Product";
+            this.Text = "Termék";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.ResumeLayout(false);

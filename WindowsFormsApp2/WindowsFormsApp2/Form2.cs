@@ -27,6 +27,7 @@ namespace erp
             var form = new TermekAlkatresz();
             form.ShowDialog();
             this.Show();
+            DiagramFeltolt();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -35,6 +36,7 @@ namespace erp
             var form = new Termek();
             form.ShowDialog();
             this.Show();
+            DiagramFeltolt();
         }
         void DiagramFeltolt()
         {
@@ -77,6 +79,7 @@ namespace erp
             var form = new Login();
             form.ShowDialog();
             this.Show();
+            DiagramFeltolt();
         }
 
         private void btnGyT_Click(object sender, EventArgs e)
@@ -87,6 +90,7 @@ namespace erp
             var form = new GyartasiTerv();
             form.ShowDialog();
             this.Show();
+            DiagramFeltolt();
         }
 
 
@@ -96,6 +100,7 @@ namespace erp
             var form = new Gyartas();
             form.ShowDialog();
             this.Show();
+            DiagramFeltolt();
         }
 
         private void btnRaktar_Click(object sender, EventArgs e)
@@ -106,6 +111,7 @@ namespace erp
             // form.Show();
             form.ShowDialog();
             this.Show();
+            DiagramFeltolt();
         }
     }
 }

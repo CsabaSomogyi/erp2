@@ -112,7 +112,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "GyartasiTervFelvitel";
-            this.Text = "GyartasiTervFelvitel";
+            this.Text = "Gyártási terv felvitel";
             ((System.ComponentModel.ISupportInitialize)(this.NSorrend)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

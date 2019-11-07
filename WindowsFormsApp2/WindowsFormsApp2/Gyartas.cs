@@ -200,11 +200,26 @@ namespace erp
                         cmd.Parameters.AddWithValue("@id", id);
                         cmd.ExecuteNonQuery();*/
                 }
-                MessageBox.Show(id.ToString());
-                SqlCommand sqlCmd = new SqlCommand("GyartasiFolyamatKesz");
-                sqlCmd.CommandType = CommandType.StoredProcedure;
-                sqlCmd.Parameters.AddWithValue("@Id", id);
-                DbManagment.SqlCommandRun(sqlCmd);
+                //    MessageBox.Show(id.ToString());
+
+                try
+                {
+                    SqlCommand sqlCmd = new SqlCommand("GyartasFolyamatElkeszult");
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.Parameters.AddWithValue("@Id", id);
+                    sqlCmd.Parameters.AddWithValue("@Nev", nev);
+                    DbManagment.SqlCommandRun(sqlCmd);
+
+                    sqlCmd = new SqlCommand("GyartasiFolyamatKesz");
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.Parameters.AddWithValue("@Id", id);
+                    DbManagment.SqlCommandRun(sqlCmd);
+                }
+                catch (Exception exp)
+                {
+                    MessageBox.Show(exp.Message.ToString(), "HIBA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+              
 
             }
 

@@ -133,7 +133,7 @@
             this.Controls.Add(this.CBTermekek);
             this.Controls.Add(this.dgvEmployee);
             this.Name = "GyartasiTerv";
-            this.Text = "GyartasiTerv";
+            this.Text = "Gyártasi terv";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

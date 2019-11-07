@@ -132,7 +132,7 @@
     <value>3</value>
   </data>
   <data name="btnTA.Text" xml:space="preserve">
-    <value>Termék Alkatrész</value>
+    <value>Alkatrész lista</value>
   </data>
   <data name="&gt;&gt;btnTA.Name" xml:space="preserve">
     <value>btnTA</value>

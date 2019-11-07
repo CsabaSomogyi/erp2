@@ -50,8 +50,17 @@ namespace erp
                 sqlCmd.Parameters.AddWithValue("@Azonosito", TBAzon.Text);
                 sqlCmd.Parameters.AddWithValue("@Nev", TBNev.Text);
                 sqlCmd.Parameters.AddWithValue("@Gyartando", CBGyart.Checked.ToString());
-                DbManagment.SqlCommandRun(sqlCmd);
-                Close();
+                try
+                {
+                    DbManagment.SqlCommandRun(sqlCmd);
+                    Close();
+                }
+                catch (Exception exp)
+                {
+                    //MessageBox.Show(exp.Message.ToString());
+                    MessageBox.Show(exp.Message.ToString(), "HIBA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
 
             }
         }
